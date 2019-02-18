@@ -1,6 +1,7 @@
 //Load HTTP module
 const http = require("http");
-const hostname = '35.177.166.25';
+var os = require("os");
+const hostname = os.hostname();
 const port = 3000;
 
 //Create HTTP server and listen on port 3000 for requests
